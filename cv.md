@@ -3,8 +3,8 @@
 
 ## Contaktt
 * **email:** *isky1308@gmail.com*
-* **Diskord:** *sky1308*
-* **GitHub:**  *github.com/Sky1308*
+* **Diskord:** *https://diskord.comsky1308.*
+* **GitHub:**  *https://github.com/Sky1308*
 
 ## About me
 * **31 years**   *I'm studying to be a Js/FE developer in RS school!!!!!!!!!*
