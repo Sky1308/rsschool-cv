@@ -1,63 +1,58 @@
 <!DOCTYPE html>
-<html> ang="en">
-
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CV</title>
-    <link rel="stylesheet" href="./style.css">
+    <title>ILYA KISIALIOU - Resume</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="cv">
-        <h1>ILYA KISIALIOU</h1>
-        
-        <div class="photo">
-          <img src="photo.jpg" width="250" height="350" alt="My photo">
-        </div>
-        
-        <div class="block">
+    <div class="resume">
+        <header>
+            <h1>ILYA KISIALIOU <img src="photo.jpg" alt="Photo" class="photo"></h1>
+        </header>
+
+        <section class="section">
             <h2>Contact</h2>
-            <p>Email: isky1308@gmail.com</p>
-            <p>Discord: sky1308</p>
-            <p>GitHub: Sky1308</p>
-        </div>
-        
-        <div class="block">
+            <ul>
+                <li><strong>Email:</strong> <a href="mailto:isky1308@gmail.com">isky1308@gmail.com</a></li>
+                <li><strong>Discord:</strong> <a href="https://diskord.comsky1308" target="_blank">https://diskord.comsky1308</a></li>
+                <li><strong>GitHub:</strong> <a href="https://github.com/Sky1308" target="_blank">https://github.com/Sky1308</a></li>
+            </ul>
+        </section>
+
+        <section class="section">
             <h2>About me</h2>
-            <p>31 years.I'm studying to be a Js/FE developer in RS school!</p>
-        </div>
-        
-        <div class="block">
+            <p><strong>31 years</strong> — I'm studying to be a Js/FE developer in RS school!</p>
+        </section>
+
+        <section class="section">
             <h2>Skills</h2>
             <ul>
+                <li>GitHub</li>
+                <li>VS Code</li>
                 <li>HTML</li>
-                <li>CSS</li>
-                <li>Git</li>
-               <li>JavaScript (I'm learning)</li>
             </ul>
-        </div>
-        
-        <div class="block">
-            <h2>My code</h2>
-            <div class="code">
-                function sayHello() {<br>
-                &nbsp;&nbsp;console.log("Hello!");<br>
-                }
-            </div>
-        </div>
-        
-        <div class="block">
+        </section>
+
+        <section class="section">
+            <h2>Code example</h2>
+            <pre><code>&lt;h1&gt;Hello, World!&lt;/h1&gt;</code></pre>
+        </section>
+
+        <section class="section">
             <h2>Education</h2>
-            <p>BSPU name M.Tanka** - History teacher</p>
-            <p>RS School - student</p>
-        </div>
-        
-        <div class="block">
-            <h2>language</h2>
-            <p>English - A1</p>
-            <p>Belarusian - native</p>
-            <p>Russian - native</p>
-        </div>
+            <p><strong>BSPU name M.Tanka</strong> — History teacher</p>
+        </section>
+
+        <section class="section">
+            <h2>Language level</h2>
+            <ul>
+                <li><strong>English:</strong> A1</li>
+                <li><strong>Russian:</strong> Native</li>
+                <li><strong>Belarusian:</strong> Native</li>
+            </ul>
+        </section>
     </div>
 </body>
 </html>
